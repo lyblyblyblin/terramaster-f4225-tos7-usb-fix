@@ -1,0 +1,235 @@
+<31>Oct 30 16:10:53 install[10636]: Initializing update tool...
+<31>Oct 30 16:10:53 install[10636]: Executable path resolved path=/Volume2/.deCompressDir_0b812568da4ba30bc002ace26544dc24/install
+<31>Oct 30 16:10:53 install[10636]: Setting root directory path=/Volume2/.deCompressDir_0b812568da4ba30bc002ace26544dc24
+<31>Oct 30 16:10:53 install[10636]: Version file found path=/usr/lib/version
+<31>Oct 30 16:10:53 install[10636]: System language set language=zh-cn
+<31>Oct 30 16:10:53 install[10636]: Loger initialized
+<31>Oct 30 16:10:53 install[10636]: Checking for readme file path=/Volume2/.deCompressDir_0b812568da4ba30bc002ace26544dc24/readme
+<31>Oct 30 16:10:53 install[10636]: Readme file found, loading configuration
+<31>Oct 30 16:10:53 install[10636]: Setting error title from readme
+<31>Oct 30 16:10:53 install[10636]: Getting skip file list
+<31>Oct 30 16:10:53 install[10636]: Loading skip file list
+<31>Oct 30 16:10:53 install[10636]: Skip file not found path=/Volume2/.deCompressDir_0b812568da4ba30bc002ace26544dc24/.skip_list
+<31>Oct 30 16:10:53 install[10636]: Skip file list loaded count=0
+<31>Oct 30 16:10:53 install[10636]: Detected kernel architecture arch=x86_64
+<31>Oct 30 16:10:53 install[10636]: Initializing update log
+<31>Oct 30 16:10:53 install[10636]: Setting up logger configuration
+<31>Oct 30 16:10:53 install[10636]: Logger initialization complete
+<31>Oct 30 16:11:24 install[10636]: All files verified successfully!
+<31>Oct 30 16:11:24 install[10636]: Starting version comparison check
+<31>Oct 30 16:11:24 install[10636]: Checking kernel version
+<31>Oct 30 16:11:24 install[10636]: Current kernel version version=6.1.120+
+<31>Oct 30 16:11:24 install[10636]: Kernel file not found in /boot, trying /root
+<31>Oct 30 16:11:24 install[10636]: Reading kernel version file path=/Volume2/.deCompressDir_0b812568da4ba30bc002ace26544dc24/root/.kernel
+<31>Oct 30 16:11:24 install[10636]: Found kernel versions in package versions=[]
+<31>Oct 30 16:11:24 install[10636]: Checking system firmware identification
+<31>Oct 30 16:11:24 install[10636]: Current system version version=TOS_X642.0_6.0.794
+<31>Oct 30 16:11:24 install[10636]: Update package version version=TOS_X642.0_7.0.0747
+<31>Oct 30 16:11:24 install[10636]: Version components osVersionParts=3 upVersionParts=3 osMiddle=X642.0 upMiddle=X642.0
+<31>Oct 30 16:11:24 install[10636]: Checking minimum required version
+<31>Oct 30 16:11:24 install[10636]: Found custom low version file path=/Volume2/.deCompressDir_0b812568da4ba30bc002ace26544dc24/.low_version
+<31>Oct 30 16:11:24 install[10636]: Minimum required version version=6.0.794
+<31>Oct 30 16:11:24 install[10636]: Checking string  versionPathByte >>> TOS_X642.0_6.0.794
+<31>Oct 30 16:11:24 install[10636]: Comparing system version with update package version systemVersion=6.0.794 packageVersion=7.0.0747
+<31>Oct 30 16:11:24 install[10636]: Checking string  versionPathByte >>> TOS_X642.0_7.0.0747
+<31>Oct 30 16:11:24 install[10636]: Start saving INI file path=/etc/tos/config/login_title.conf
+<31>Oct 30 16:11:24 install[10636]: Create buffer for writing INI content
+<31>Oct 30 16:11:24 install[10636]: Successfully wrote to buffer buffer length=207
+<31>Oct 30 16:11:24 install[10636]: Successfully wrote to buffer buffer content=main_title          = TOS 7.0
+main_font_size      = 40px
+subtitle1           = 
+subtitle1_font_size = 20px
+default_comment1    = true
+comment1            = 
+default_comment2    = true
+comment2            = 
+<31>Oct 30 16:11:24 install[10636]: Successfully wrote file path=/etc/tos/config/login_title.conf
+<31>Oct 30 16:11:24 install[10636]: Filtering and killing processes currentPid=10636
+<31>Oct 30 16:11:24 install[10636]: Skipping kernel/self process pid=1
+<31>Oct 30 16:11:24 install[10636]: Skipping kernel/self process pid=2
+<31>Oct 30 16:11:24 install[10636]: Skipping kernel/self process pid=3
+<31>Oct 30 16:11:24 install[10636]: Skipping kernel/self process pid=4
+<31>Oct 30 16:11:24 install[10636]: Checking if process should be filtered process=postgres
+<31>Oct 30 16:11:24 install[10636]: Process is in whitelist, skipping process=postgres whitelistEntry=postgres
+<31>Oct 30 16:11:24 install[10636]: Skipping whitelisted process pid=425 name=postgres
+<31>Oct 30 16:11:24 install[10636]: Checking if process should be filtered process=postgres
+<31>Oct 30 16:11:24 install[10636]: Process is in whitelist, skipping process=postgres whitelistEntry=postgres
+<31>Oct 30 16:11:24 install[10636]: Skipping whitelisted process pid=426 name=postgres
+<31>Oct 30 16:11:24 install[10636]: Checking if process should be filtered process=postgres
+<31>Oct 30 16:11:24 install[10636]: Process is in whitelist, skipping process=postgres whitelistEntry=postgres
+<31>Oct 30 16:11:24 install[10636]: Skipping whitelisted process pid=427 name=postgres
+<31>Oct 30 16:11:24 install[10636]: Checking if process should be filtered process=postgres
+<31>Oct 30 16:11:24 install[10636]: Process is in whitelist, skipping process=postgres whitelistEntry=postgres
+<31>Oct 30 16:11:24 install[10636]: Skipping whitelisted process pid=428 name=postgres
+<31>Oct 30 16:11:24 install[10636]: Checking if process should be filtered process=avahi-daemon
+<31>Oct 30 16:11:24 install[10636]: Process not in whitelist, will be killed process=avahi-daemon
+<31>Oct 30 16:11:24 install[10636]: Attempting to kill process pid=786 name=avahi-daemon
+<31>Oct 30 16:11:24 install[10636]: Processing process kill pid=786 status=sleep
+<31>Oct 30 16:11:24 install[10636]: Attempting to kill process pid=786 name=avahi-daemon method=systemctl stop
+<31>Oct 30 16:11:24 install[10636]: Systemctl stop failed, trying direct kill pid=786 name=avahi-daemon
+<31>Oct 30 16:11:24 install[10636]: Successfully killed process pid=786 name=avahi-daemon
+<31>Oct 30 16:11:24 install[10636]: Checking if process should be filtered process=vmtouch
+<31>Oct 30 16:11:24 install[10636]: Process not in whitelist, will be killed process=vmtouch
+<31>Oct 30 16:11:24 install[10636]: Attempting to kill process pid=944 name=vmtouch
+<31>Oct 30 16:11:24 install[10636]: Processing process kill pid=944 status=sleep
+<31>Oct 30 16:11:24 install[10636]: Attempting to kill process pid=944 name=vmtouch method=systemctl stop
+<31>Oct 30 16:11:24 install[10636]: Systemctl stop failed, trying direct kill pid=944 name=vmtouch
+<31>Oct 30 16:11:24 install[10636]: Successfully killed process pid=944 name=vmtouch
+<31>Oct 30 16:11:24 install[10636]: Checking if process should be filtered process=ip
+<31>Oct 30 16:11:24 install[10636]: Process not in whitelist, will be killed process=ip
+<31>Oct 30 16:11:24 install[10636]: Attempting to kill process pid=3475 name=ip
+<31>Oct 30 16:11:24 install[10636]: Processing process kill pid=3475 status=sleep
+<31>Oct 30 16:11:24 install[10636]: Attempting to kill process pid=3475 name=ip method=systemctl stop
+<31>Oct 30 16:11:24 install[10636]: Systemctl stop failed, trying direct kill pid=3475 name=ip
+<31>Oct 30 16:11:24 install[10636]: Successfully killed process pid=3475 name=ip
+<31>Oct 30 16:11:24 install[10636]: Checking if process should be filtered process=ip_monitor
+<31>Oct 30 16:11:24 install[10636]: Process not in whitelist, will be killed process=ip_monitor
+<31>Oct 30 16:11:24 install[10636]: Attempting to kill process pid=3476 name=ip_monitor
+<31>Oct 30 16:11:24 install[10636]: Processing process kill pid=3476 status=sleep
+<31>Oct 30 16:11:24 install[10636]: Attempting to kill process pid=3476 name=ip_monitor method=systemctl stop
+<31>Oct 30 16:11:24 install[10636]: Systemctl stop failed, trying direct kill pid=3476 name=ip_monitor
+<31>Oct 30 16:11:24 install[10636]: Failed to kill process pid=3476 name=ip_monitor error=os: process already finished
+<31>Oct 30 16:11:24 install[10636]: Checking if process should be filtered process=postgres
+<31>Oct 30 16:11:24 install[10636]: Process is in whitelist, skipping process=postgres whitelistEntry=postgres
+<31>Oct 30 16:11:24 install[10636]: Skipping whitelisted process pid=3548 name=postgres
+<31>Oct 30 16:11:24 install[10636]: Checking if process should be filtered process=smbd-notifyd
+<31>Oct 30 16:11:24 install[10636]: Process not in whitelist, will be killed process=smbd-notifyd
+<31>Oct 30 16:11:24 install[10636]: Attempting to kill process pid=3658 name=smbd-notifyd
+<31>Oct 30 16:11:24 install[10636]: Processing process kill pid=3658 status=sleep
+<31>Oct 30 16:11:24 install[10636]: Attempting to kill process pid=3658 name=smbd-notifyd method=systemctl stop
+<31>Oct 30 16:11:24 install[10636]: Systemctl stop failed, trying direct kill pid=3658 name=smbd-notifyd
+<31>Oct 30 16:11:24 install[10636]: Successfully killed process pid=3658 name=smbd-notifyd
+<31>Oct 30 16:11:24 install[10636]: Checking if process should be filtered process=cleanupd
+<31>Oct 30 16:11:24 install[10636]: Process not in whitelist, will be killed process=cleanupd
+<31>Oct 30 16:11:24 install[10636]: Attempting to kill process pid=3659 name=cleanupd
+<31>Oct 30 16:11:24 install[10636]: Processing process kill pid=3659 status=sleep
+<31>Oct 30 16:11:24 install[10636]: Attempting to kill process pid=3659 name=cleanupd method=systemctl stop
+<31>Oct 30 16:11:24 install[10636]: Systemctl stop failed, trying direct kill pid=3659 name=cleanupd
+<31>Oct 30 16:11:24 install[10636]: Successfully killed process pid=3659 name=cleanupd
+<31>Oct 30 16:11:24 install[10636]: Checking if process should be filtered process=samba-bgqd
+<31>Oct 30 16:11:24 install[10636]: Process not in whitelist, will be killed process=samba-bgqd
+<31>Oct 30 16:11:24 install[10636]: Attempting to kill process pid=3660 name=samba-bgqd
+<31>Oct 30 16:11:24 install[10636]: Processing process kill pid=3660 status=sleep
+<31>Oct 30 16:11:24 install[10636]: Attempting to kill process pid=3660 name=samba-bgqd method=systemctl stop
+<31>Oct 30 16:11:24 install[10636]: Systemctl stop failed, trying direct kill pid=3660 name=samba-bgqd
+<31>Oct 30 16:11:24 install[10636]: Successfully killed process pid=3660 name=samba-bgqd
+<31>Oct 30 16:11:24 install[10636]: Checking if process should be filtered process=nginx
+<31>Oct 30 16:11:24 install[10636]: Process is in whitelist, skipping process=nginx whitelistEntry=nginx
+<31>Oct 30 16:11:24 install[10636]: Skipping whitelisted process pid=3770 name=nginx
+<31>Oct 30 16:11:24 install[10636]: Checking if process should be filtered process=nginx
+<31>Oct 30 16:11:24 install[10636]: Process is in whitelist, skipping process=nginx whitelistEntry=nginx
+<31>Oct 30 16:11:24 install[10636]: Skipping whitelisted process pid=3771 name=nginx
+<31>Oct 30 16:11:24 install[10636]: Checking if process should be filtered process=nginx
+<31>Oct 30 16:11:24 install[10636]: Process is in whitelist, skipping process=nginx whitelistEntry=nginx
+<31>Oct 30 16:11:24 install[10636]: Skipping whitelisted process pid=3772 name=nginx
+<31>Oct 30 16:11:24 install[10636]: Checking if process should be filtered process=nginx
+<31>Oct 30 16:11:24 install[10636]: Process is in whitelist, skipping process=nginx whitelistEntry=nginx
+<31>Oct 30 16:11:24 install[10636]: Skipping whitelisted process pid=3773 name=nginx
+<31>Oct 30 16:11:24 install[10636]: Checking if process should be filtered process=php-fpm7.4
+<31>Oct 30 16:11:24 install[10636]: Process not in whitelist, will be killed process=php-fpm7.4
+<31>Oct 30 16:11:24 install[10636]: Attempting to kill process pid=3809 name=php-fpm7.4
+<31>Oct 30 16:11:24 install[10636]: Processing process kill pid=3809 status=sleep
+<31>Oct 30 16:11:24 install[10636]: Attempting to kill process pid=3809 name=php-fpm7.4 method=systemctl stop
+<31>Oct 30 16:11:24 install[10636]: Systemctl stop failed, trying direct kill pid=3809 name=php-fpm7.4
+<31>Oct 30 16:11:24 install[10636]: Successfully killed process pid=3809 name=php-fpm7.4
+<31>Oct 30 16:11:24 install[10636]: Checking if process should be filtered process=php-fpm7.4
+<31>Oct 30 16:11:24 install[10636]: Process not in whitelist, will be killed process=php-fpm7.4
+<31>Oct 30 16:11:24 install[10636]: Attempting to kill process pid=3810 name=php-fpm7.4
+<31>Oct 30 16:11:24 install[10636]: Processing process kill pid=3810 status=sleep
+<31>Oct 30 16:11:24 install[10636]: Attempting to kill process pid=3810 name=php-fpm7.4 method=systemctl stop
+<31>Oct 30 16:11:24 install[10636]: Systemctl stop failed, trying direct kill pid=3810 name=php-fpm7.4
+<31>Oct 30 16:11:24 install[10636]: Successfully killed process pid=3810 name=php-fpm7.4
+<31>Oct 30 16:11:24 install[10636]: Checking if process should be filtered process=php-fpm7.4
+<31>Oct 30 16:11:24 install[10636]: Process not in whitelist, will be killed process=php-fpm7.4
+<31>Oct 30 16:11:24 install[10636]: Attempting to kill process pid=3811 name=php-fpm7.4
+<31>Oct 30 16:11:24 install[10636]: Processing process kill pid=3811 status=sleep
+<31>Oct 30 16:11:24 install[10636]: Attempting to kill process pid=3811 name=php-fpm7.4 method=systemctl stop
+<31>Oct 30 16:11:24 install[10636]: Systemctl stop failed, trying direct kill pid=3811 name=php-fpm7.4
+<31>Oct 30 16:11:24 install[10636]: Successfully killed process pid=3811 name=php-fpm7.4
+<31>Oct 30 16:11:24 install[10636]: Checking if process should be filtered process=php-fpm7.4
+<31>Oct 30 16:11:24 install[10636]: Process not in whitelist, will be killed process=php-fpm7.4
+<31>Oct 30 16:11:24 install[10636]: Attempting to kill process pid=3812 name=php-fpm7.4
+<31>Oct 30 16:11:24 install[10636]: Processing process kill pid=3812 status=sleep
+<31>Oct 30 16:11:24 install[10636]: Attempting to kill process pid=3812 name=php-fpm7.4 method=systemctl stop
+<31>Oct 30 16:11:24 install[10636]: Systemctl stop failed, trying direct kill pid=3812 name=php-fpm7.4
+<31>Oct 30 16:11:24 install[10636]: Successfully killed process pid=3812 name=php-fpm7.4
+<31>Oct 30 16:11:24 install[10636]: Checking if process should be filtered process=php-fpm7.4
+<31>Oct 30 16:11:24 install[10636]: Process not in whitelist, will be killed process=php-fpm7.4
+<31>Oct 30 16:11:24 install[10636]: Attempting to kill process pid=3813 name=php-fpm7.4
+<31>Oct 30 16:11:24 install[10636]: Processing process kill pid=3813 status=sleep
+<31>Oct 30 16:11:24 install[10636]: Attempting to kill process pid=3813 name=php-fpm7.4 method=systemctl stop
+<31>Oct 30 16:11:24 install[10636]: Systemctl stop failed, trying direct kill pid=3813 name=php-fpm7.4
+<31>Oct 30 16:11:24 install[10636]: Successfully killed process pid=3813 name=php-fpm7.4
+<31>Oct 30 16:11:24 install[10636]: Checking if process should be filtered process=postgres
+<31>Oct 30 16:11:24 install[10636]: Process is in whitelist, skipping process=postgres whitelistEntry=postgres
+<31>Oct 30 16:11:24 install[10636]: Skipping whitelisted process pid=10023 name=postgres
+<31>Oct 30 16:11:24 install[10636]: Checking if process should be filtered process=postgres
+<31>Oct 30 16:11:24 install[10636]: Process is in whitelist, skipping process=postgres whitelistEntry=postgres
+<31>Oct 30 16:11:24 install[10636]: Skipping whitelisted process pid=10600 name=postgres
+<31>Oct 30 16:11:24 install[10636]: Skipping kernel/self process pid=10636
+<31>Oct 30 16:11:24 install[10636]: Process termination summary totalProcesses=224 killed=11 skipped=212 errors=1
+<31>Oct 30 16:11:24 install[10636]: Stopping all services via ter_service
+<31>Oct 30 16:11:40 install[10636]: Successfully stopped all services
+<31>Oct 30 16:11:40 install[10636]: >>>>>>>>>>tos7 update kernel<<<<<<<<<
+<31>Oct 30 16:11:40 install[10636]: Current system architecture: !BADKEY=x86_64
+<31>Oct 30 16:11:40 install[10636]: Block device sda=Is boot partition: !BADKEY=false
+<31>Oct 30 16:11:40 install[10636]: Block device sda1=Is boot partition: !BADKEY=true
+<31>Oct 30 16:11:40 install[10636]: Block device sda2=Is boot partition: !BADKEY=false
+<31>Oct 30 16:11:40 install[10636]: Block device sda3=Is boot partition: !BADKEY=false
+<31>Oct 30 16:11:40 install[10636]: Block device sda4=Is boot partition: !BADKEY=false
+<31>Oct 30 16:11:40 install[10636]: Block device sdb=Is boot partition: !BADKEY=false
+<31>Oct 30 16:11:40 install[10636]: Block device sdb1=Is boot partition: !BADKEY=true
+<31>Oct 30 16:11:40 install[10636]: Block device sdb2=Is boot partition: !BADKEY=false
+<31>Oct 30 16:11:40 install[10636]: Block device sdb3=Is boot partition: !BADKEY=false
+<31>Oct 30 16:11:40 install[10636]: Block device sdb4=Is boot partition: !BADKEY=false
+<31>Oct 30 16:11:40 install[10636]: Block device md9=Is boot partition: !BADKEY=false
+<31>Oct 30 16:11:40 install[10636]: Block device md8=Is boot partition: !BADKEY=false
+<31>Oct 30 16:11:40 install[10636]: Block device md0=Is boot partition: !BADKEY=false
+<31>Oct 30 16:11:40 install[10636]: Block device dm-0=Is boot partition: !BADKEY=false
+<31>Oct 30 16:11:40 install[10636]: Failed to umount block device: !BADKEY=no such file or directory
+<31>Oct 30 16:11:40 install[10636]: create directory path=/tmp/bootdev/
+<31>Oct 30 16:11:40 install[10636]: block device path: /dev/sda1=mount point: /tmp/bootdev/=filesystem type: ext4=flags: !BADKEY=1038 mount options:=[]
+<31>Oct 30 16:11:40 install[10636]: Delete unnormalized original kernel files /tmp/bootdev/boot/initrd.img-6.12.41+tos-amd64 /tmp/bootdev/boot/vmlinuz-6.12.41+tos-amd64
+<31>Oct 30 16:11:40 install[10636]: ShellExec err:  !BADKEY=exit status 1
+<31>Oct 30 16:11:40 install[10636]: exec: cmd=/usr/bin/tar --no-same-owner -xvf /Volume2/.deCompressDir_0b812568da4ba30bc002ace26544dc24/boot/grub.bz2 -C /tmp/bootdev/
+<31>Oct 30 16:11:40 install[10636]: tar stdout line=/Volume2/.deCompressDir_0b812568da4ba30bc002ace26544dc24/boot ======>=/tmp/bootdev
+<31>Oct 30 16:11:40 install[10636]: tar stdout line=/Volume2/.deCompressDir_0b812568da4ba30bc002ace26544dc24/boot/boot ======>=/tmp/bootdev/boot
+<31>Oct 30 16:11:40 install[10636]: tar stdout line=/Volume2/.deCompressDir_0b812568da4ba30bc002ace26544dc24/boot/boot/grub ======>=/tmp/bootdev/boot/grub
+<31>Oct 30 16:11:40 install[10636]: tar stdout line=/Volume2/.deCompressDir_0b812568da4ba30bc002ace26544dc24/boot/boot/grub/grub.cfg ======>=/tmp/bootdev/boot/grub/grub.cfg
+<31>Oct 30 16:11:40 install[10636]: tar stdout line=/Volume2/.deCompressDir_0b812568da4ba30bc002ace26544dc24/boot/boot/grub/fonts ======>=/tmp/bootdev/boot/grub/fonts
+<31>Oct 30 16:11:40 install[10636]: tar stdout line=/Volume2/.deCompressDir_0b812568da4ba30bc002ace26544dc24/boot/boot/grub/fonts/tos.pf2 ======>=/tmp/bootdev/boot/grub/fonts/tos.pf2
+<31>Oct 30 16:11:40 install[10636]: tar stdout line=/Volume2/.deCompressDir_0b812568da4ba30bc002ace26544dc24/boot/EFI ======>=/tmp/bootdev/EFI
+<31>Oct 30 16:11:40 install[10636]: tar stdout line=/Volume2/.deCompressDir_0b812568da4ba30bc002ace26544dc24/boot/EFI/BOOT ======>=/tmp/bootdev/EFI/BOOT
+<31>Oct 30 16:11:40 install[10636]: tar stdout line=/Volume2/.deCompressDir_0b812568da4ba30bc002ace26544dc24/boot/EFI/BOOT/mmx64.efi ======>=/tmp/bootdev/EFI/BOOT/mmx64.efi
+<31>Oct 30 16:11:40 install[10636]: tar stdout line=/Volume2/.deCompressDir_0b812568da4ba30bc002ace26544dc24/boot/EFI/BOOT/grubx64.efi ======>=/tmp/bootdev/EFI/BOOT/grubx64.efi
+<31>Oct 30 16:11:40 install[10636]: tar stdout line=/Volume2/.deCompressDir_0b812568da4ba30bc002ace26544dc24/boot/EFI/BOOT/BOOTx64.EFI ======>=/tmp/bootdev/EFI/BOOT/BOOTx64.EFI
+<31>Oct 30 16:11:41 install[10636]: Failed to umount block device: !BADKEY=invalid argument
+<31>Oct 30 16:11:41 install[10636]: block device path: /dev/sdb1=mount point: /tmp/bootdev/=filesystem type: ext4=flags: !BADKEY=1038 mount options:=[]
+<31>Oct 30 16:11:41 install[10636]: Delete unnormalized original kernel files /tmp/bootdev/boot/initrd.img-6.12.41+tos-amd64 /tmp/bootdev/boot/vmlinuz-6.12.41+tos-amd64
+<31>Oct 30 16:11:41 install[10636]: ShellExec err:  !BADKEY=exit status 1
+<31>Oct 30 16:11:41 install[10636]: exec: cmd=/usr/bin/tar --no-same-owner -xvf /Volume2/.deCompressDir_0b812568da4ba30bc002ace26544dc24/boot/grub.bz2 -C /tmp/bootdev/
+<31>Oct 30 16:11:41 install[10636]: tar stdout line=/Volume2/.deCompressDir_0b812568da4ba30bc002ace26544dc24/boot ======>=/tmp/bootdev
+<31>Oct 30 16:11:41 install[10636]: tar stdout line=/Volume2/.deCompressDir_0b812568da4ba30bc002ace26544dc24/boot/boot ======>=/tmp/bootdev/boot
+<31>Oct 30 16:11:41 install[10636]: tar stdout line=/Volume2/.deCompressDir_0b812568da4ba30bc002ace26544dc24/boot/boot/grub ======>=/tmp/bootdev/boot/grub
+<31>Oct 30 16:11:41 install[10636]: tar stdout line=/Volume2/.deCompressDir_0b812568da4ba30bc002ace26544dc24/boot/boot/grub/grub.cfg ======>=/tmp/bootdev/boot/grub/grub.cfg
+<31>Oct 30 16:11:41 install[10636]: tar stdout line=/Volume2/.deCompressDir_0b812568da4ba30bc002ace26544dc24/boot/boot/grub/fonts ======>=/tmp/bootdev/boot/grub/fonts
+<31>Oct 30 16:11:41 install[10636]: tar stdout line=/Volume2/.deCompressDir_0b812568da4ba30bc002ace26544dc24/boot/boot/grub/fonts/tos.pf2 ======>=/tmp/bootdev/boot/grub/fonts/tos.pf2
+<31>Oct 30 16:11:41 install[10636]: tar stdout line=/Volume2/.deCompressDir_0b812568da4ba30bc002ace26544dc24/boot/EFI ======>=/tmp/bootdev/EFI
+<31>Oct 30 16:11:41 install[10636]: tar stdout line=/Volume2/.deCompressDir_0b812568da4ba30bc002ace26544dc24/boot/EFI/BOOT ======>=/tmp/bootdev/EFI/BOOT
+<31>Oct 30 16:11:41 install[10636]: tar stdout line=/Volume2/.deCompressDir_0b812568da4ba30bc002ace26544dc24/boot/EFI/BOOT/mmx64.efi ======>=/tmp/bootdev/EFI/BOOT/mmx64.efi
+<31>Oct 30 16:11:41 install[10636]: tar stdout line=/Volume2/.deCompressDir_0b812568da4ba30bc002ace26544dc24/boot/EFI/BOOT/grubx64.efi ======>=/tmp/bootdev/EFI/BOOT/grubx64.efi
+<31>Oct 30 16:11:41 install[10636]: tar stdout line=/Volume2/.deCompressDir_0b812568da4ba30bc002ace26544dc24/boot/EFI/BOOT/BOOTx64.EFI ======>=/tmp/bootdev/EFI/BOOT/BOOTx64.EFI
+<31>Oct 30 16:12:03 install[10636]: Starting SpecialTreatment operations
+<31>Oct 30 16:12:03 install[10636]: Removing /etc/p file
+<31>Oct 30 16:12:03 install[10636]: Setting shadow file permissions to 0640 files=[/etc/shadow /etc.default/shadow /etc/shadow- /etc.default/shadow-]
+<31>Oct 30 16:12:03 install[10636]: Removing old rsyslog config files files=[/etc/rsyslog.d/template.conf /etc.default/rsyslog.d/template.conf]
+<31>Oct 30 16:12:03 install[10636]: Cleaning up residual files files=[/readme /update_del /update_sh /update.sh /update-run.sh /install /del.log /.autoInstall /.del.log.swp /.result.json.swp /"etc.default test.sh]
+<31>Oct 30 16:12:03 install[10636]: Checking and completing routine.json files paths=[/etc/tos/config/routine.json /etc.default/tos/config/routine.json]
+<31>Oct 30 16:12:03 install[10636]: routine.json already exists path=/etc/tos/config/routine.json
+<31>Oct 30 16:12:03 install[10636]: routine.json already exists path=/etc.default/tos/config/routine.json
+<31>Oct 30 16:12:03 install[10636]: machine-id is not default, skipping update currentID=f217cf9ebe54e0f4b14ddf35af6d2336
+<31>Oct 30 16:12:03 install[10636]: root======/Volume2/.deCompressDir_0b812568da4ba30bc002ace26544dc24, tosVersion==========/usr/lib/version
+<31>Oct 30 16:12:03 install[10636]: >>>>>>>>>>>>>>>>>>>Handle updateNotificationsConf<<<<<<<<<<<<<<<<<<<<<<<<
+<31>Oct 30 16:12:03 install[10636]: [INFO] Modified login_title.conf: subtitle1 changed to Evolved for Full Native AI
+<31>Oct 30 16:12:03 install[10636]: Syncing filesystem
+<31>Oct 30 16:12:07 install[10636]: Completed all SpecialTreatment operations
