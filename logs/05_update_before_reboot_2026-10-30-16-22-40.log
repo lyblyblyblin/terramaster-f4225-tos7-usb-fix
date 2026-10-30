@@ -1,0 +1,71 @@
+[26-10-30 16:22:40] === Update started ===
+[26-10-30 16:22:40] Log file: /home/linyb/update_before_reboot_2026-10-30-16-22-40.log
+[26-10-30 16:22:40] Update package: /Volume2/.update_6cf63d40d9af5463182da96e489889c1/TOS_X642.0_Update_7.0.1341_1841_2610092012.bz2
+[26-10-30 16:22:40] Decompress dir: /update
+[26-10-30 16:22:40] Package dir: /Volume2/.update_6cf63d40d9af5463182da96e489889c1
+[26-10-30 16:22:40] System version: 7.0.0747
+[26-10-30 16:22:40] Boot version: MAPL0304V16
+[26-10-30 16:22:40] isRunning set to true, timeout set to 20 minutes from now
+[26-10-30 16:22:40] Writing initial progress: 10/100
+[26-10-30 16:22:40] Starting decompression of /Volume2/.update_6cf63d40d9af5463182da96e489889c1/TOS_X642.0_Update_7.0.1341_1841_2610092012.bz2 to /update
+[26-10-30 16:23:14] Decompression completed successfully
+[26-10-30 16:23:14] Starting package verification, rootPath=/update, infoPath=/update/INFO
+[26-10-30 16:23:31] Package verification passed
+[26-10-30 16:23:31] Starting version comparison check...
+[26-10-30 16:23:31] compareVersion: starting, root=/update
+[26-10-30 16:23:31] checkKernelVersion: checking for root=/update
+[26-10-30 16:23:31] checkKernelVersion: current kernel version: 6.12.63+
+[26-10-30 16:23:31] checkKernelVersion: no .kernel file found, skipping kernel version check
+[26-10-30 16:23:31] checkVersionCompatibility: checking system version compatibility
+[26-10-30 16:23:31] checkVersionCompatibility: current system version: TOS_X642.0_7.0.0747
+[26-10-30 16:23:31] checkVersionCompatibility: update package version: TOS_X642.0_7.0.1341
+[26-10-30 16:23:31] checkVersionCompatibility: firmware ID matched: X642.0
+[26-10-30 16:23:31] checkMinVersion: checking minimum version, currentVersion=7.0.0747
+[26-10-30 16:23:31] checkMinVersion: minimum required version: 7.0.0746
+[26-10-30 16:23:31] checkMinVersion: current version 7.0.0747 meets minimum requirement 7.0.0746
+[26-10-30 16:23:31] checkPackageVersion: comparing system=7.0.0747 with package=7.0.1341
+[26-10-30 16:23:31] checkPackageVersion: version check passed, system <= package
+[26-10-30 16:23:31] checkVersionCompatibility: all compatibility checks passed
+[26-10-30 16:23:31] compareVersion: all checks passed
+[26-10-30 16:23:31] Version check passed
+[26-10-30 16:23:31] Starting kernel update (tos7 -> tos7)...
+[26-10-30 16:23:31] updateKernel: detected architecture: amd64
+[26-10-30 16:23:31] updateKernel: updating kernel for x86_64 architecture
+[26-10-30 16:23:31] updateKernelX86: tosloader file found at /update/boot/.tosloader
+[26-10-30 16:23:31] updateKernelX86: found 14 block devices
+[26-10-30 16:23:31] updateKernelX86: created mount point /tmp/bootdev
+[26-10-30 16:23:31] updateKernelX86: found GRUB partition at /dev/sda1
+[26-10-30 16:23:31] updateKernelX86: filesystem type of /dev/sda1 is ext4
+[26-10-30 16:23:31] updateKernelX86: mounted /dev/sda1 at /tmp/bootdev (fsType=ext4)
+[26-10-30 16:23:31] updateBootFiles: updating boot files, root=/update, mountPoint=/tmp/bootdev
+[26-10-30 16:23:31] updateBootFiles: cleaned up 0 old TOSUP temp files
+[26-10-30 16:23:31] updateBootFiles: cleaned up legacy kernel files (6.12.41+tos-amd64)
+[26-10-30 16:23:31] updateBootFiles: extracting grub.bz2 from /update/boot/grub.bz2 to /tmp/bootdev
+[26-10-30 16:23:32] updateBootFiles: grub.bz2 extracted successfully
+[26-10-30 16:23:32] updateBootFiles: updated vmlinuz, /update/boot/vmlinuz -> /tmp/bootdev/boot/vmlinuz
+[26-10-30 16:23:33] updateBootFiles: updated initrd.img, /update/boot/initrd.img -> /tmp/bootdev/boot/initrd.img
+[26-10-30 16:23:33] updateBootFiles: filesystem synced, boot files update completed
+[26-10-30 16:23:33] updateKernelX86: boot files updated successfully on /dev/sda1
+[26-10-30 16:23:33] updateKernelX86: unmounted /tmp/bootdev
+[26-10-30 16:23:33] updateKernelX86: kernel update completed for device /dev/sda1
+[26-10-30 16:23:33] updateKernelX86: found GRUB partition at /dev/sdb1
+[26-10-30 16:23:33] updateKernelX86: filesystem type of /dev/sdb1 is ext4
+[26-10-30 16:23:33] updateKernelX86: mounted /dev/sdb1 at /tmp/bootdev (fsType=ext4)
+[26-10-30 16:23:33] updateBootFiles: updating boot files, root=/update, mountPoint=/tmp/bootdev
+[26-10-30 16:23:33] updateBootFiles: cleaned up 0 old TOSUP temp files
+[26-10-30 16:23:33] updateBootFiles: cleaned up legacy kernel files (6.12.41+tos-amd64)
+[26-10-30 16:23:33] updateBootFiles: extracting grub.bz2 from /update/boot/grub.bz2 to /tmp/bootdev
+[26-10-30 16:23:33] updateBootFiles: grub.bz2 extracted successfully
+[26-10-30 16:23:33] updateBootFiles: updated vmlinuz, /update/boot/vmlinuz -> /tmp/bootdev/boot/vmlinuz
+[26-10-30 16:23:33] updateBootFiles: updated initrd.img, /update/boot/initrd.img -> /tmp/bootdev/boot/initrd.img
+[26-10-30 16:23:33] updateBootFiles: filesystem synced, boot files update completed
+[26-10-30 16:23:33] updateKernelX86: boot files updated successfully on /dev/sdb1
+[26-10-30 16:23:34] updateKernelX86: unmounted /tmp/bootdev
+[26-10-30 16:23:34] updateKernelX86: kernel update completed for device /dev/sdb1
+[26-10-30 16:23:34] updateKernelX86: all devices processed, kernel update finished
+[26-10-30 16:23:34] Kernel update completed successfully
+[26-10-30 16:23:34] All pre-reboot update steps completed, progress=100%, preparing for reboot
+[26-10-30 16:23:36] post-install success
+[26-10-30 16:23:36] Package dir removed, syncing filesystem and rebooting in 2 seconds...
+[26-10-30 16:23:36] Cleanup: removed package dir /Volume2/.update_6cf63d40d9af5463182da96e489889c1
+[26-10-30 16:23:36] isRunning set to false
