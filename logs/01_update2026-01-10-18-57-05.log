@@ -1,0 +1,214 @@
+<31>Jan 10 18:57:05 install[433065]: Initializing update tool...
+<31>Jan 10 18:57:05 install[433065]: Executable path resolved path=/Volume2/.deCompressDir_0b812568da4ba30bc002ace26544dc24/install
+<31>Jan 10 18:57:05 install[433065]: Setting root directory path=/Volume2/.deCompressDir_0b812568da4ba30bc002ace26544dc24
+<31>Jan 10 18:57:05 install[433065]: Version file found path=/usr/lib/version
+<31>Jan 10 18:57:05 install[433065]: System language set language=zh-cn
+<31>Jan 10 18:57:05 install[433065]: Loger initialized
+<31>Jan 10 18:57:05 install[433065]: Checking for readme file path=/Volume2/.deCompressDir_0b812568da4ba30bc002ace26544dc24/readme
+<31>Jan 10 18:57:05 install[433065]: Readme file found, loading configuration
+<31>Jan 10 18:57:05 install[433065]: Setting error title from readme
+<31>Jan 10 18:57:05 install[433065]: Getting skip file list
+<31>Jan 10 18:57:05 install[433065]: Loading skip file list
+<31>Jan 10 18:57:05 install[433065]: Skip file not found path=/Volume2/.deCompressDir_0b812568da4ba30bc002ace26544dc24/.skip_list
+<31>Jan 10 18:57:05 install[433065]: Skip file list loaded count=0
+<31>Jan 10 18:57:05 install[433065]: Detected kernel architecture arch=x86_64
+<31>Jan 10 18:57:05 install[433065]: Initializing update log
+<31>Jan 10 18:57:05 install[433065]: Setting up logger configuration
+<31>Jan 10 18:57:05 install[433065]: Logger initialization complete
+<31>Jan 10 18:57:06 install[433065]: Starting version comparison check
+<31>Jan 10 18:57:06 install[433065]: Checking kernel version
+<31>Jan 10 18:57:06 install[433065]: Current kernel version version=6.1.120+
+<31>Jan 10 18:57:06 install[433065]: Kernel file not found in /boot, trying /root
+<31>Jan 10 18:57:06 install[433065]: Reading kernel version file path=/Volume2/.deCompressDir_0b812568da4ba30bc002ace26544dc24/root/.kernel
+<31>Jan 10 18:57:06 install[433065]: Found kernel versions in package versions=[]
+<31>Jan 10 18:57:06 install[433065]: Checking system firmware identification
+<31>Jan 10 18:57:06 install[433065]: Current system version version=TOS_X642.0_6.0.783
+<31>Jan 10 18:57:06 install[433065]: Update package version version=TOS_X642.0_6.0.794
+<31>Jan 10 18:57:06 install[433065]: Version components osVersionParts=3 upVersionParts=3 osMiddle=X642.0 upMiddle=X642.0
+<31>Jan 10 18:57:06 install[433065]: Checking minimum required version
+<31>Jan 10 18:57:06 install[433065]: Found custom low version file path=/Volume2/.deCompressDir_0b812568da4ba30bc002ace26544dc24/.low_version
+<31>Jan 10 18:57:06 install[433065]: Minimum required version version=6.0.500
+<31>Jan 10 18:57:06 install[433065]: Comparing system version with update package version systemVersion=6.0.783 packageVersion=6.0.794
+<31>Jan 10 18:57:06 install[433065]: TOS6 updating to TOS6 =========ShellExec /Volume2/.deCompressDir_0b812568da4ba30bc002ace26544dc24/218xfwdl -S Output: Asmedia PCIe Gen3 Switch SPI ROM Update Linux Utility - Version 1.7.4.0
+
+Can't find any Asmedia PCIe Gen3 Switch PCIe Switch Upstream Port!!!
+<31>Jan 10 18:57:06 install[433065]: TOS6 updating to TOS6: cmd= /usr/bin/bash -c /Volume2/.deCompressDir_0b812568da4ba30bc002ace26544dc24/218xfwdl /U ./240821_40_00_00.bin, output= Asmedia PCIe Gen3 Switch SPI ROM Update Linux Utility - Version 1.7.4.0
+
+Can't find any Asmedia PCIe Gen3 Switch PCIe Switch Upstream Port!!!
+, err= <nil>
+<31>Jan 10 18:57:06 install[433065]: Filtering and killing processes currentPid=433065
+<31>Jan 10 18:57:06 install[433065]: Skipping kernel/self process pid=1
+<31>Jan 10 18:57:06 install[433065]: Skipping kernel/self process pid=2
+<31>Jan 10 18:57:06 install[433065]: Skipping kernel/self process pid=3
+<31>Jan 10 18:57:06 install[433065]: Skipping kernel/self process pid=4
+<31>Jan 10 18:57:06 install[433065]: Checking if process should be filtered process=postgres
+<31>Jan 10 18:57:06 install[433065]: Process is in whitelist, skipping process=postgres whitelistEntry=postgres
+<31>Jan 10 18:57:06 install[433065]: Skipping whitelisted process pid=452 name=postgres
+<31>Jan 10 18:57:06 install[433065]: Checking if process should be filtered process=postgres
+<31>Jan 10 18:57:06 install[433065]: Process is in whitelist, skipping process=postgres whitelistEntry=postgres
+<31>Jan 10 18:57:06 install[433065]: Skipping whitelisted process pid=453 name=postgres
+<31>Jan 10 18:57:06 install[433065]: Checking if process should be filtered process=postgres
+<31>Jan 10 18:57:06 install[433065]: Process is in whitelist, skipping process=postgres whitelistEntry=postgres
+<31>Jan 10 18:57:06 install[433065]: Skipping whitelisted process pid=454 name=postgres
+<31>Jan 10 18:57:06 install[433065]: Checking if process should be filtered process=postgres
+<31>Jan 10 18:57:06 install[433065]: Process is in whitelist, skipping process=postgres whitelistEntry=postgres
+<31>Jan 10 18:57:06 install[433065]: Skipping whitelisted process pid=455 name=postgres
+<31>Jan 10 18:57:06 install[433065]: Checking if process should be filtered process=avahi-daemon
+<31>Jan 10 18:57:06 install[433065]: Process not in whitelist, will be killed process=avahi-daemon
+<31>Jan 10 18:57:06 install[433065]: Attempting to kill process pid=683 name=avahi-daemon
+<31>Jan 10 18:57:06 install[433065]: Processing process kill pid=683 status=sleep
+<31>Jan 10 18:57:06 install[433065]: Attempting to kill process pid=683 name=avahi-daemon method=systemctl stop
+<31>Jan 10 18:57:06 install[433065]: Successfully stopped process via systemctl pid=683 name=avahi-daemon
+<31>Jan 10 18:57:06 install[433065]: Successfully killed process pid=683 name=avahi-daemon
+<31>Jan 10 18:57:06 install[433065]: Checking if process should be filtered process=vmtouch
+<31>Jan 10 18:57:06 install[433065]: Process not in whitelist, will be killed process=vmtouch
+<31>Jan 10 18:57:06 install[433065]: Attempting to kill process pid=2307 name=vmtouch
+<31>Jan 10 18:57:06 install[433065]: Processing process kill pid=2307 status=sleep
+<31>Jan 10 18:57:06 install[433065]: Attempting to kill process pid=2307 name=vmtouch method=systemctl stop
+<31>Jan 10 18:57:06 install[433065]: Systemctl stop failed, trying direct kill pid=2307 name=vmtouch
+<31>Jan 10 18:57:06 install[433065]: Successfully killed process pid=2307 name=vmtouch
+<31>Jan 10 18:57:06 install[433065]: Checking if process should be filtered process=postgres
+<31>Jan 10 18:57:06 install[433065]: Process is in whitelist, skipping process=postgres whitelistEntry=postgres
+<31>Jan 10 18:57:06 install[433065]: Skipping whitelisted process pid=3212 name=postgres
+<31>Jan 10 18:57:06 install[433065]: Checking if process should be filtered process=ip
+<31>Jan 10 18:57:06 install[433065]: Process not in whitelist, will be killed process=ip
+<31>Jan 10 18:57:06 install[433065]: Attempting to kill process pid=3570 name=ip
+<31>Jan 10 18:57:06 install[433065]: Processing process kill pid=3570 status=sleep
+<31>Jan 10 18:57:06 install[433065]: Attempting to kill process pid=3570 name=ip method=systemctl stop
+<31>Jan 10 18:57:06 install[433065]: Systemctl stop failed, trying direct kill pid=3570 name=ip
+<31>Jan 10 18:57:06 install[433065]: Successfully killed process pid=3570 name=ip
+<31>Jan 10 18:57:06 install[433065]: Checking if process should be filtered process=ip_monitor
+<31>Jan 10 18:57:06 install[433065]: Process not in whitelist, will be killed process=ip_monitor
+<31>Jan 10 18:57:06 install[433065]: Attempting to kill process pid=3571 name=ip_monitor
+<31>Jan 10 18:57:06 install[433065]: Processing process kill pid=3571 status=zombie
+<31>Jan 10 18:57:06 install[433065]: Attempting to kill process pid=3571 name=ip_monitor method=systemctl stop
+<31>Jan 10 18:57:06 install[433065]: Systemctl stop failed, trying direct kill pid=3571 name=ip_monitor
+<31>Jan 10 18:57:06 install[433065]: Failed to kill process pid=3571 name=ip_monitor error=os: process already finished
+<31>Jan 10 18:57:06 install[433065]: Checking if process should be filtered process=nginx
+<31>Jan 10 18:57:06 install[433065]: Process is in whitelist, skipping process=nginx whitelistEntry=nginx
+<31>Jan 10 18:57:06 install[433065]: Skipping whitelisted process pid=3663 name=nginx
+<31>Jan 10 18:57:06 install[433065]: Checking if process should be filtered process=nginx
+<31>Jan 10 18:57:06 install[433065]: Process is in whitelist, skipping process=nginx whitelistEntry=nginx
+<31>Jan 10 18:57:06 install[433065]: Skipping whitelisted process pid=3664 name=nginx
+<31>Jan 10 18:57:06 install[433065]: Checking if process should be filtered process=nginx
+<31>Jan 10 18:57:06 install[433065]: Process is in whitelist, skipping process=nginx whitelistEntry=nginx
+<31>Jan 10 18:57:06 install[433065]: Skipping whitelisted process pid=3665 name=nginx
+<31>Jan 10 18:57:06 install[433065]: Checking if process should be filtered process=nginx
+<31>Jan 10 18:57:06 install[433065]: Process is in whitelist, skipping process=nginx whitelistEntry=nginx
+<31>Jan 10 18:57:06 install[433065]: Skipping whitelisted process pid=3666 name=nginx
+<31>Jan 10 18:57:06 install[433065]: Checking if process should be filtered process=php-fpm7.4
+<31>Jan 10 18:57:06 install[433065]: Process not in whitelist, will be killed process=php-fpm7.4
+<31>Jan 10 18:57:06 install[433065]: Attempting to kill process pid=3751 name=php-fpm7.4
+<31>Jan 10 18:57:06 install[433065]: Processing process kill pid=3751 status=sleep
+<31>Jan 10 18:57:06 install[433065]: Attempting to kill process pid=3751 name=php-fpm7.4 method=systemctl stop
+<31>Jan 10 18:57:06 install[433065]: Systemctl stop failed, trying direct kill pid=3751 name=php-fpm7.4
+<31>Jan 10 18:57:06 install[433065]: Successfully killed process pid=3751 name=php-fpm7.4
+<31>Jan 10 18:57:06 install[433065]: Checking if process should be filtered process=php-fpm7.4
+<31>Jan 10 18:57:06 install[433065]: Process not in whitelist, will be killed process=php-fpm7.4
+<31>Jan 10 18:57:06 install[433065]: Attempting to kill process pid=3752 name=php-fpm7.4
+<31>Jan 10 18:57:06 install[433065]: Processing process kill pid=3752 status=sleep
+<31>Jan 10 18:57:06 install[433065]: Attempting to kill process pid=3752 name=php-fpm7.4 method=systemctl stop
+<31>Jan 10 18:57:06 install[433065]: Systemctl stop failed, trying direct kill pid=3752 name=php-fpm7.4
+<31>Jan 10 18:57:06 install[433065]: Successfully killed process pid=3752 name=php-fpm7.4
+<31>Jan 10 18:57:06 install[433065]: Checking if process should be filtered process=php-fpm7.4
+<31>Jan 10 18:57:06 install[433065]: Process not in whitelist, will be killed process=php-fpm7.4
+<31>Jan 10 18:57:06 install[433065]: Attempting to kill process pid=3753 name=php-fpm7.4
+<31>Jan 10 18:57:06 install[433065]: Processing process kill pid=3753 status=sleep
+<31>Jan 10 18:57:06 install[433065]: Attempting to kill process pid=3753 name=php-fpm7.4 method=systemctl stop
+<31>Jan 10 18:57:06 install[433065]: Systemctl stop failed, trying direct kill pid=3753 name=php-fpm7.4
+<31>Jan 10 18:57:06 install[433065]: Successfully killed process pid=3753 name=php-fpm7.4
+<31>Jan 10 18:57:06 install[433065]: Checking if process should be filtered process=php-fpm7.4
+<31>Jan 10 18:57:06 install[433065]: Process not in whitelist, will be killed process=php-fpm7.4
+<31>Jan 10 18:57:06 install[433065]: Attempting to kill process pid=3754 name=php-fpm7.4
+<31>Jan 10 18:57:06 install[433065]: Processing process kill pid=3754 status=sleep
+<31>Jan 10 18:57:06 install[433065]: Attempting to kill process pid=3754 name=php-fpm7.4 method=systemctl stop
+<31>Jan 10 18:57:06 install[433065]: Systemctl stop failed, trying direct kill pid=3754 name=php-fpm7.4
+<31>Jan 10 18:57:06 install[433065]: Successfully killed process pid=3754 name=php-fpm7.4
+<31>Jan 10 18:57:06 install[433065]: Checking if process should be filtered process=php-fpm7.4
+<31>Jan 10 18:57:06 install[433065]: Process not in whitelist, will be killed process=php-fpm7.4
+<31>Jan 10 18:57:06 install[433065]: Attempting to kill process pid=3755 name=php-fpm7.4
+<31>Jan 10 18:57:06 install[433065]: Processing process kill pid=3755 status=sleep
+<31>Jan 10 18:57:06 install[433065]: Attempting to kill process pid=3755 name=php-fpm7.4 method=systemctl stop
+<31>Jan 10 18:57:06 install[433065]: Systemctl stop failed, trying direct kill pid=3755 name=php-fpm7.4
+<31>Jan 10 18:57:06 install[433065]: Successfully killed process pid=3755 name=php-fpm7.4
+<31>Jan 10 18:57:06 install[433065]: Checking if process should be filtered process=smbd-notifyd
+<31>Jan 10 18:57:06 install[433065]: Process not in whitelist, will be killed process=smbd-notifyd
+<31>Jan 10 18:57:06 install[433065]: Attempting to kill process pid=4107 name=smbd-notifyd
+<31>Jan 10 18:57:06 install[433065]: Processing process kill pid=4107 status=sleep
+<31>Jan 10 18:57:06 install[433065]: Attempting to kill process pid=4107 name=smbd-notifyd method=systemctl stop
+<31>Jan 10 18:57:06 install[433065]: Systemctl stop failed, trying direct kill pid=4107 name=smbd-notifyd
+<31>Jan 10 18:57:06 install[433065]: Successfully killed process pid=4107 name=smbd-notifyd
+<31>Jan 10 18:57:06 install[433065]: Checking if process should be filtered process=cleanupd
+<31>Jan 10 18:57:06 install[433065]: Process not in whitelist, will be killed process=cleanupd
+<31>Jan 10 18:57:06 install[433065]: Attempting to kill process pid=4108 name=cleanupd
+<31>Jan 10 18:57:06 install[433065]: Processing process kill pid=4108 status=sleep
+<31>Jan 10 18:57:06 install[433065]: Attempting to kill process pid=4108 name=cleanupd method=systemctl stop
+<31>Jan 10 18:57:06 install[433065]: Systemctl stop failed, trying direct kill pid=4108 name=cleanupd
+<31>Jan 10 18:57:06 install[433065]: Successfully killed process pid=4108 name=cleanupd
+<31>Jan 10 18:57:06 install[433065]: Checking if process should be filtered process=samba-bgqd
+<31>Jan 10 18:57:06 install[433065]: Process not in whitelist, will be killed process=samba-bgqd
+<31>Jan 10 18:57:06 install[433065]: Attempting to kill process pid=4109 name=samba-bgqd
+<31>Jan 10 18:57:06 install[433065]: Processing process kill pid=4109 status=sleep
+<31>Jan 10 18:57:06 install[433065]: Attempting to kill process pid=4109 name=samba-bgqd method=systemctl stop
+<31>Jan 10 18:57:06 install[433065]: Systemctl stop failed, trying direct kill pid=4109 name=samba-bgqd
+<31>Jan 10 18:57:06 install[433065]: Successfully killed process pid=4109 name=samba-bgqd
+<31>Jan 10 18:57:06 install[433065]: Checking if process should be filtered process=containerd
+<31>Jan 10 18:57:06 install[433065]: Process not in whitelist, will be killed process=containerd
+<31>Jan 10 18:57:06 install[433065]: Attempting to kill process pid=4343 name=containerd
+<31>Jan 10 18:57:06 install[433065]: Processing process kill pid=4343 status=sleep
+<31>Jan 10 18:57:06 install[433065]: Attempting to kill process pid=4343 name=containerd method=systemctl stop
+<31>Jan 10 18:57:06 install[433065]: Systemctl stop failed, trying direct kill pid=4343 name=containerd
+<31>Jan 10 18:57:06 install[433065]: Successfully killed process pid=4343 name=containerd
+<31>Jan 10 18:57:06 install[433065]: Checking if process should be filtered process=docker-proxy
+<31>Jan 10 18:57:06 install[433065]: Process not in whitelist, will be killed process=docker-proxy
+<31>Jan 10 18:57:06 install[433065]: Attempting to kill process pid=4597 name=docker-proxy
+<31>Jan 10 18:57:06 install[433065]: Processing process kill pid=4597 status=sleep
+<31>Jan 10 18:57:06 install[433065]: Attempting to kill process pid=4597 name=docker-proxy method=systemctl stop
+<31>Jan 10 18:57:06 install[433065]: Systemctl stop failed, trying direct kill pid=4597 name=docker-proxy
+<31>Jan 10 18:57:06 install[433065]: Successfully killed process pid=4597 name=docker-proxy
+<31>Jan 10 18:57:06 install[433065]: Checking if process should be filtered process=docker-proxy
+<31>Jan 10 18:57:06 install[433065]: Process not in whitelist, will be killed process=docker-proxy
+<31>Jan 10 18:57:06 install[433065]: Attempting to kill process pid=4602 name=docker-proxy
+<31>Jan 10 18:57:06 install[433065]: Processing process kill pid=4602 status=sleep
+<31>Jan 10 18:57:06 install[433065]: Attempting to kill process pid=4602 name=docker-proxy method=systemctl stop
+<31>Jan 10 18:57:06 install[433065]: Systemctl stop failed, trying direct kill pid=4602 name=docker-proxy
+<31>Jan 10 18:57:06 install[433065]: Successfully killed process pid=4602 name=docker-proxy
+<31>Jan 10 18:57:06 install[433065]: Checking if process should be filtered process=verysync
+<31>Jan 10 18:57:06 install[433065]: Process not in whitelist, will be killed process=verysync
+<31>Jan 10 18:57:06 install[433065]: Attempting to kill process pid=4755 name=verysync
+<31>Jan 10 18:57:06 install[433065]: Processing process kill pid=4755 status=sleep
+<31>Jan 10 18:57:06 install[433065]: Attempting to kill process pid=4755 name=verysync method=systemctl stop
+<31>Jan 10 18:57:06 install[433065]: Systemctl stop failed, trying direct kill pid=4755 name=verysync
+<31>Jan 10 18:57:06 install[433065]: Successfully killed process pid=4755 name=verysync
+<31>Jan 10 18:57:06 install[433065]: Checking if process should be filtered process=verysync
+<31>Jan 10 18:57:06 install[433065]: Process not in whitelist, will be killed process=verysync
+<31>Jan 10 18:57:06 install[433065]: Attempting to kill process pid=4977 name=verysync
+<31>Jan 10 18:57:06 install[433065]: Processing process kill pid=4977 status=sleep
+<31>Jan 10 18:57:06 install[433065]: Attempting to kill process pid=4977 name=verysync method=systemctl stop
+<31>Jan 10 18:57:06 install[433065]: Systemctl stop failed, trying direct kill pid=4977 name=verysync
+<31>Jan 10 18:57:06 install[433065]: Successfully killed process pid=4977 name=verysync
+<31>Jan 10 18:57:06 install[433065]: Skipping kernel/self process pid=433065
+<31>Jan 10 18:57:06 install[433065]: Process termination summary totalProcesses=228 killed=16 skipped=211 errors=1
+<31>Jan 10 18:57:06 install[433065]: Stopping all services via ter_service
+<31>Jan 10 18:57:39 install[433065]: Successfully stopped all services
+<31>Jan 10 18:57:39 install[433065]: >>>>>>>>>>tos6 update kernel<<<<<<<<<
+<31>Jan 10 18:57:39 install[433065]: tos6 updating Kernel ========= KernelArch: x86_64 
+<31>Jan 10 18:57:39 install[433065]: tos6 updating Kernel ========= before safeCopyKernel
+<31>Jan 10 18:57:39 install[433065]: tos6 updateKernel updateImage /
+<31>Jan 10 18:57:39 install[433065]: create directory path=/tmp/bootdev
+<31>Jan 10 18:57:39 install[433065]: tos6 updating Kernel ========= blks: [/dev/sda1 /dev/sdb1]
+<31>Jan 10 18:57:39 install[433065]: tos6 updating Kernel ========= fileSysType output: ext2
+<31>Jan 10 18:57:39 install[433065]: tos6 updating Kernel ========= blk: /dev/sda1, mntpoint: /tmp/bootdev, sign: UTOSDISK
+<31>Jan 10 18:57:39 install[433065]: tos6 updating Kernel ========= fileSysType output: ext2
+<31>Jan 10 18:57:39 install[433065]: tos6 updating Kernel ========= blk: /dev/sdb1, mntpoint: /tmp/bootdev, sign: UTOSDISK
+<31>Jan 10 18:57:48 install[433065]: Starting SpecialTreatment operations
+<31>Jan 10 18:57:48 install[433065]: Removing /etc/p file
+<31>Jan 10 18:57:48 install[433065]: Setting shadow file permissions to 0640 files=[/etc/shadow /etc.default/shadow /etc/shadow- /etc.default/shadow-]
+<31>Jan 10 18:57:48 install[433065]: Removing old rsyslog config files files=[/etc/rsyslog.d/template.conf /etc.default/rsyslog.d/template.conf]
+<31>Jan 10 18:57:48 install[433065]: Cleaning up residual files files=[/readme /update_del /update_sh /update.sh /update-run.sh /install /del.log /.autoInstall /.del.log.swp /.result.json.swp /"etc.default test.sh]
+<31>Jan 10 18:57:48 install[433065]: Checking and completing routine.json files paths=[/etc/tos/config/routine.json /etc.default/tos/config/routine.json]
+<31>Jan 10 18:57:48 install[433065]: routine.json already exists path=/etc/tos/config/routine.json
+<31>Jan 10 18:57:48 install[433065]: routine.json already exists path=/etc.default/tos/config/routine.json
+<31>Jan 10 18:57:48 install[433065]: machine-id is not default, skipping update currentID=43730730c2abddc8e9c43ff50fc72f10
+<31>Jan 10 18:57:48 install[433065]: Syncing filesystem
+<31>Jan 10 18:57:49 install[433065]: Completed all SpecialTreatment operations
