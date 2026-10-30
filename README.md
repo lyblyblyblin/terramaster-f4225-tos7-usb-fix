@@ -3,6 +3,8 @@
 > 铁威马 TOS7 升级 / 自带 128MB U 盘 / usb_initboot_legacy 镜像裁剪 / TOS6 升 TOS7
 > 2026-10-30 在铁威马 F4-225 上测试成功（主板设置为 UEFI+Legacy）。
 
+> **提示**：本页面内容由 AI 汇总生成，仅供参考。如内容涉及侵权，请联系邮箱 **lin_yb@88.com**，核实后删除。
+
 ## 文档
 
 - [TOS6→TOS7 升级排查档案（问题现象 + 全部排查命令与 6 个日志）](docs/tos7-upgrade-fix.md)
